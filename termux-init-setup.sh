@@ -19,5 +19,8 @@ pkg install -y ccls clang curl emacs gdb git golang llvm man mariadb nodejs open
 echo " * Setting up Emacs..."
 git clone https://github.com/cabins/emacs.d ~/.emacs.d
 
+echo " * Installing typescript..."
+npm install -g typescript
+
 echo " * You may configure MariaDB from: https://wiki.termux.com/wiki/MariaDB "
 echo " * You may configure Postgresql from: https://wiki.termux.com/wiki/Postgresql "

@@ -21,7 +21,7 @@ else
     echo -e "\n * Extract the file to <server> folder...\n\n"
     rm -rf server
     mkdir server
-    tar xvf $latest_file -C server/
+    tar xf $latest_file -C server/
 
     echo -e " * Cleaning the old version file...\n"
     if [ -n "$local_file" ]; then
